@@ -1,0 +1,360 @@
+/*  全てに適用
+--------------------------------*/
+body a{
+    text-decoration:none; 
+    color: #95BFBC;
+}
+body a:visited{
+    text-decoration:none
+}
+/*  top
+--------------------------------*/
+.top{
+    position: relative;
+}
+.top .logo{
+    position: absolute;
+    color: white;
+    background-color: #95BFBC;
+    top: 4%;
+    left: 23%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    font-size: 16px;
+    padding: 12px;
+}
+
+/*  キャッチコピー
+--------------------------------*/
+
+.top .main_word01{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 80px;
+    text-shadow: 1px 1px 1px black;
+}
+.main{
+    width: 375px;
+    height: 667px;
+}
+
+/*  contents0
+--------------------------------*/
+.contents0{
+    text-align: center;
+}
+.title00{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    padding-top: 120px;
+}
+.title00::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    display: inline-block;
+    width: 60px;/*線の長さ*/
+    height: 1px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #95BFBC;/*線の色*/
+}
+.word00{
+    padding-top: 60px;
+}
+
+
+
+
+
+/*  contents1
+--------------------------------*/
+.contents1{
+    text-align: center;
+}
+.title01{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    padding-top: 120px;
+}
+.title01::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    display: inline-block;
+    width: 60px;/*線の長さ*/
+    height: 1px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #95BFBC;/*線の色*/
+}
+.word01{
+    padding-top: 60px;
+}
+/*  contents2
+--------------------------------*/
+.contents2{
+    text-align: center;
+}
+.title02{
+    position: relative;
+    font-size: 20px;
+    padding-top: 120px;
+
+}
+.title02::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    display: inline-block;
+    width: 60px;/*線の長さ*/
+    height: 1px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #95BFBC;/*線の色*/
+}
+.balloon1 {
+    position: relative;
+    display: inline-block;
+    margin: 60px;
+    padding: 7px 15px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #95BFBC;
+  }
+  
+  .balloon1:before {
+    content: "";
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid #95BFBC;
+  }
+  
+    .balloon1 p {
+    margin: 0;
+    padding: 0;
+  }
+    .men{
+    text-align: center;
+}
+    .balloon2 {
+    position: relative;
+    display: inline-block;
+    margin: 60px;
+    padding: 7px 15px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #95BFBC;
+}
+    .balloon2:before {
+    content: "";
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid #95BFBC
+  }
+  
+  .balloon2 p {
+    margin: 0;
+    padding: 0;
+  }
+  .women{
+    text-align: center;
+}
+/*  下矢印
+--------------------------------*/
+
+.arrow-bottom {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 60px 0 10px 0;
+    border-bottom: 4px solid #95BFBC;
+    border-right: 4px solid #95BFBC;
+    transform: rotate(45deg);
+  }
+.word02{
+    margin-top: 30px;
+}
+
+/*  contents3 ミニシアターのの良い所
+--------------------------------*/
+
+.contents3{
+    text-align: center;
+}
+
+.title03{
+    position: relative;
+    font-size: 20px;
+    padding-top: 120px;
+
+}
+.title03::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    display: inline-block;
+    width: 60px;/*線の長さ*/
+    height: 1px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #95BFBC;/*線の色*/
+}
+
+/*  写真01
+--------------------------------*/
+.number01{
+    margin-top: 60px;
+}
+
+.sub_title01{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.theater01{
+    width: 296px;
+    height: 400px;
+}
+/*  写真02
+--------------------------------*/
+
+.number02{
+    margin-top: 60px;
+}
+
+.sub_title02{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.theater02{
+    width: 296px;
+    height: 250px;
+}
+
+/*  写真03
+--------------------------------*/
+
+.number03{
+    margin-top: 60px;
+}
+
+.sub_title03{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.theater03{
+    width: 296px;
+    height: 250px;
+}
+
+
+/*  矢印2
+--------------------------------*/
+
+.word03{
+    margin-top: 60px;
+}
+
+
+.arrow-bottom01 {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 30px 40px 10px 40px;
+    border-bottom: 4px solid #95BFBC;
+    border-right: 4px solid #95BFBC;
+    transform: rotate(45deg);
+  }
+
+
+
+/*  map サイトへのアクセス
+--------------------------------*/
+
+.title04{
+    position: relative;
+    font-size: 20px;
+    padding-top: 120px;
+
+}
+.title04::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    display: inline-block;
+    width: 60px;/*線の長さ*/
+    height: 1px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #95BFBC;/*線の色*/
+}
+
+.map{
+    text-align: center;
+}
+.map01{
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.add{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+/*  footer
+--------------------------------*/
+.footer{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    width: 375px;
+    height: 250px;
+    background-color: #95BFBC;
+    position: relative;
+}
+/*  footernav
+--------------------------------*/
+
+.one{
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.two{
+    margin-bottom: 20px;
+}
+.three{
+    margin-bottom: 20px;
+}
+.fwo{
+    margin-bottom: 20px;
+}
+
+.footer div{
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+
